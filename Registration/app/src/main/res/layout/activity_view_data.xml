@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewData">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:weightSum="1"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/head"
+            android:orientation="horizontal"
+            android:gravity="top"
+            android:padding="6dp"
+            android:layout_margin="3dp"
+            >
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="your details"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+
+
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_weight="01">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="first name :"
+                        android:layout_weight="0.7"
+                        android:gravity="end"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/fname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_weight="0.3"
+                        android:gravity="start"
+                        tools:ignore="TextViewEdits" />
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="middle name :"
+                        android:layout_weight="0.7"
+                        android:gravity="end"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/mname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_weight="0.3"
+                        android:gravity="start"
+                        tools:ignore="TextViewEdits" />
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="last name :"
+                        android:layout_weight="0.7"
+                        android:gravity="end"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/lname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_weight="0.3"
+                        android:gravity="start"
+                        tools:ignore="TextViewEdits" />
+                </LinearLayout>
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="email :"
+                        android:layout_weight="0.7"
+                        android:gravity="end"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_weight="0.3"
+                        android:gravity="start"
+                        tools:ignore="TextViewEdits" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="mobile :"
+                        android:layout_weight="0.7"
+                        android:gravity="end"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_weight="0.3"
+                        android:gravity="start"
+                        tools:ignore="TextViewEdits" />
+                </LinearLayout>
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="date of birth :"
+                        android:layout_weight="0.7"
+                        android:gravity="end"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/dob"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_weight="0.3"
+                        android:gravity="start"
+                        tools:ignore="TextViewEdits" />
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="sex :"
+                        android:layout_weight="0.7"
+                        android:gravity="end"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/sex"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_weight="0.3"
+                        android:gravity="start"
+                        tools:ignore="TextViewEdits" />
+                </LinearLayout>
+
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="occupation :"
+                        android:layout_weight="0.7"
+                        android:gravity="end"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/occupation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:layout_weight="0.3"
+                        android:gravity="start"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:paddingTop="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="address :"
+                        android:layout_weight="0.7"
+                        android:gravity="end"
+                        android:paddingTop="5dp"
+
+                        />
+
+
+
+                    <LinearLayout
+                        android:layout_weight="0.3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:gravity="start"
+                        tools:ignore="TextViewEdits"
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:layout_weight="0.3"
+                            android:id="@+id/house_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="10dp"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:gravity="start"
+                            android:singleLine="false"
+                            tools:ignore="TextViewEdits" />
+
+
+
+                        <TextView
+                            android:layout_weight="0.3"
+                            android:id="@+id/location"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:gravity="start"
+                            android:singleLine="false"
+                            tools:ignore="TextViewEdits" />
+                        <TextView
+                            android:layout_weight="0.3"
+                            android:id="@+id/street"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:gravity="start"
+                            android:singleLine="false"
+                            tools:ignore="TextViewEdits" />
+                        <TextView
+                            android:layout_weight="0.3"
+                            android:id="@+id/post"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:gravity="start"
+                            android:singleLine="false"
+                            tools:ignore="TextViewEdits" />
+                        <TextView
+                            android:layout_weight="0.3"
+                            android:id="@+id/district"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:gravity="start"
+                            android:singleLine="false"
+                            tools:ignore="TextViewEdits" />
+                        <TextView
+                            android:layout_weight="0.3"
+                            android:id="@+id/state"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:gravity="start"
+                            android:singleLine="false"
+                            tools:ignore="TextViewEdits" />
+
+                        <TextView
+                            android:layout_weight="0.3"
+                            android:id="@+id/pin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:inputType="textPersonName"
+                            android:paddingBottom="2dp"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:gravity="start"
+                            android:singleLine="false"
+                            tools:ignore="TextViewEdits" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
